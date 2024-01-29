@@ -1,0 +1,8 @@
+{
+  "label": "Pizza",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Pizza-related recipes, usually made better by a pizza stone or pizza steel!"
+  }
+}
