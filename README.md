@@ -28,7 +28,7 @@ Built with docusaurus (https://docusaurus.io/).
 
 3. Or, run as a container with docker-compose
 
-`docker-compose build && docker-compose up -d && docker logs -f recipes`
+`docker-compose down && docker system prune && docker-compose build && docker-compose up -d && docker logs -f recipes`
 
 
 ### Resources
