@@ -8,6 +8,7 @@ services:
   recipes:
     image: recipes:latest
     container_name: recipes
+    restart: unless-stopped
     build: .
     networks:
       - traefik_traefik-network
