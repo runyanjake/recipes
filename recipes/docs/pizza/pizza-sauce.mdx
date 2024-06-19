@@ -2,35 +2,48 @@
 sidebar_position: 2
 ---
 
+import Admonition from '@theme/Admonition'
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Pizza Sauce
 
-:::info
-Avoid excess salt as this doesn't really need it.
-:::
+<Tabs>
+  <TabItem value="photos" label="Photos" default>
+    A standard pizza sauce for pizza night.
+    
+    ![image](@site/docs/pizza/static/pizza-sauce.png)
+  </TabItem>
 
-```md title="Ingredients"
-6 oz tomato paste
-15 oz tomato sauce
-1-2 tablespoons dried oregano to taste
-2 tablespoons Italian seasoning
-½ teaspoon garlic powder
-½ teaspoon onion powder
-½ tablespoon garlic salt
-¼ teaspoon freshly ground black pepper
-1 teaspoon sugar
-```
+  <TabItem value="ingredients" label="Ingredients">
+    ```text title="Pizza Sauce"
+    6 oz tomato paste
+    15 oz tomato sauce
+    1-2 tablespoons dried oregano to taste
+    2 tablespoons Italian seasoning
+    ½ teaspoon garlic powder
+    ½ teaspoon onion powder
+    ½ tablespoon garlic salt
+    ¼ teaspoon freshly ground black pepper
+    1 teaspoon sugar
+    ```
 
-```md title="Instructions - Dough (using dry active yeast)"
-1. Mix tomato paste and sauce together in a medium size bowl until smooth.
-2. Add the rest of the ingredients – oregano, Italian seasoning, garlic powder, onion powder, garlic salt, pepper and sugar – and stir until evenly distributed throughout the sauce.
-3. Taste and adjust seasonings to your liking.
-```
+    <Admonition type="info" title="Low Sodium">
+      <p>Avoid excess salt as this doesn't really need it.</p>
+    </Admonition>
+  </TabItem>
 
-### Notes
-A decently sweet sauce usually breaks up the salt you'll be adding in meat-related toppings.
+  <TabItem value="instructions" label="Instructions">
+    1. Mix tomato paste and sauce together in a medium size bowl until smooth.
+    2. Add the rest of the ingredients – oregano, Italian seasoning, garlic powder, onion powder, garlic salt, pepper and sugar – and stir until evenly distributed throughout the sauce.
+    3. Taste and adjust seasonings to your liking.
+    
+    <Admonition type="info" title="Keep it Sweet">
+      <p>If you're adding meat a sweet sauce usually breaks up all the salt you'll be adding.</p>
+    </Admonition>
+  </TabItem>
 
-![img alt](@site/docs/pizza/static/pizza-sauce.png)
-
-### References
-https://joyfoodsunshine.com/easy-homemade-pizza-sauce-recipe/
-
+  <TabItem value="references" label="References">
+    https://joyfoodsunshine.com/easy-homemade-pizza-sauce-recipe/
+  </TabItem>
+</Tabs>
