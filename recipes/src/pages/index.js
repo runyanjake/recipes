@@ -32,7 +32,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.tabTitle}`}
+      title={`${siteConfig.customFields.homePageTitle}`}
       description="Recipes website, hosted by PWS.">
       <HomepageHeader />
       <main>

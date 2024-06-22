@@ -1,7 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
 const config = {
-  title: 'Recipes',
+  title: 'PWS Recipes',
   tagline: 'Hosted by PWS',
   favicon: 'img/favicon.ico',
   url: 'https://recipes.whitney.rip',
@@ -16,7 +16,7 @@ const config = {
   },
   
   customFields: {
-    tabTitle: 'PWS Recipes',
+    homePageTitle: 'Home',
   },
 
   presets: [
