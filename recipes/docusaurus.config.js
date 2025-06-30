@@ -54,8 +54,13 @@ const config = {
           },
           {to: '/blog', label: 'About', position: 'left'},
           {
-            href: 'https://git.whitney.rip/olomana/recipes',
+            href: 'https://github.com/runyanjake/recipes',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://git.whitney.rip/jr/recipes',
+            label: 'Gitea',
             position: 'right',
           },
         ],
