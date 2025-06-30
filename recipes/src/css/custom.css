@@ -28,3 +28,24 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Custom image on homepage */
+.hero--primary {
+  background-image: url('@site/static/img/want_to_cook.svg'); /* The path is relative to the `static` folder */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* Dark overlay matching above image so text pops. */
+.hero--primary {
+  background-image: 
+    linear-gradient(rgba(40, 40, 40, 0.5), rgba(40, 40, 40, 0.5)),
+    url('@site/static/img/want_to_cook.svg');
+  color: #ffffff;
+}
+
+/* Enhance the default hero shadow. */
+.hero__title, .hero__subtitle {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
