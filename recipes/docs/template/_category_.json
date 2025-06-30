@@ -1,6 +1,6 @@
 {
     "label": "TEMPLATE",
-    "position": 1,
+    "position": 99999,
     "link": {
       "type": "generated-index",
       "description": "Description for template category."
