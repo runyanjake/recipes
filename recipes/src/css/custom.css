@@ -31,7 +31,7 @@
 
 /* Custom image on homepage */
 .hero--primary {
-  background-image: url('@site/static/img/want_to_cook.svg'); /* The path is relative to the `static` folder */
+  background-image: url('@site/static/img/want-to-cook.png'); /* The path is relative to the `static` folder */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -41,7 +41,7 @@
 .hero--primary {
   background-image: 
     linear-gradient(rgba(40, 40, 40, 0.5), rgba(40, 40, 40, 0.5)),
-    url('@site/static/img/want_to_cook.svg');
+    url('@site/static/img/want-to-cook.png');
   color: #ffffff;
 }
 

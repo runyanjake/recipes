@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'You want to cook',
-    Svg: require('@site/static/img/want_to_cook.svg').default,
+    Svg: require('@site/static/img/want-to-cook.png').default,
     description: (
       <>
         Cooking is fun! And you need to eat stuff to survive. I have a folder of bookmarks to random sites for whenever I need to remember how to make something. That worked great until the folder got big and the sites started to suck...
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'But recipe sites suck!',
-    Svg: require('@site/static/img/recipe_sites_suck.svg').default,
+    Svg: require('@site/static/img/recipe-sites-suck.png').default,
     description: (
       <>
         I do not mind ads on the sites people make, but I do mind sites with overly aggressive ads where you can't see the main content. 
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Welcome to my self-hosted Cookbook',
-    Svg: require('@site/static/img/online_cookbook.svg').default,
+    Svg: require('@site/static/img/online-cookbook.png').default,
     description: (
       <>
         Rather than make a physical cookbook, I have made a website to share things with. Thanks to Docusaurus for providing a content-first approach to frontend design for us backend engineers.
